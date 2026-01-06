@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Editkaro.in | Video Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Editkaro.in</h1>
+        <p>Social Media Marketing & Video Editing Agency</p>
+    </header>
+
+    <!-- Filter Buttons -->
+    <div class="filters">
+        <button onclick="filterVideos('all')">All</button>
+        <button onclick="filterVideos('short')">Short-form</button>
+        <button onclick="filterVideos('long')">Long-form</button>
+        <button onclick="filterVideos('gaming')">Gaming</button>
+        <button onclick="filterVideos('football')">Football</button>
+        <button onclick="filterVideos('ads')">Ads</button>
+        <button onclick="filterVideos('anime')">Anime</button>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+
+        <div class="video-card short">
+            <video src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+            <h3>Short-form Reel</h3>
+        </div>
+
+        <div class="video-card long">
+            <video src="https://www.w3schools.com/html/movie.mp4" muted></video>
+            <h3>Long-form Video</h3>
+        </div>
+
+        <div class="video-card gaming">
+            <video src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+            <h3>Gaming Edit</h3>
+        </div>
+
+        <div class="video-card football">
+            <video src="https://www.w3schools.com/html/movie.mp4" muted></video>
+            <h3>Football Edit</h3>
+        </div>
+
+        <div class="video-card ads">
+            <video src="https://www.w3schools.com/html/mov_bbb.mp4" muted></video>
+            <h3>eCommerce Ad</h3>
+        </div>
+
+        <div class="video-card anime">
+            <video src="https://www.w3schools.com/html/movie.mp4" muted></video>
+            <h3>Anime Edit</h3>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
